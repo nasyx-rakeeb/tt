@@ -23,10 +23,10 @@ def helloworld():
 
     if(request.method == 'GET'): 
 
-        data = {"lunar_year": "200", "lunar_month": "200", "lunar_day": "200"} 
+        data = {"lunar_year": "test", "lunar_month": "test", "lunar_day": "test"} 
 
         return jsonify(data) 
 
 if __name__ == '__main__': 
 
-    app.run(debug=True) 
+    app.run(debug=False) 
